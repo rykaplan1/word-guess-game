@@ -1,0 +1,9 @@
+.letter-blank {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+#letter-blanks {
+  display: flex;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Word Guess</h1>
+    </header>
+    <main>
+      <p>Press a letter on your keyboard to guess if it's in the word. Figure out the word before time runs out!</p>
+      <button id="start">Start</button>
+      <div id="timer-box">Seconds remaining: <span id="timer"></span></div>
+      <section id="letter-blanks">
+      </section>
+      <p id="result-text"></p>
+      <section id="score">
+        <p>Wins: <span id="wins"></span></p>
+        <p>Losses: <span id="losses"></span></p>
+      </section>
+      <button id="reset">Reset Score</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
